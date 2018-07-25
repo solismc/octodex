@@ -7,3 +7,47 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+/*body sytle from the site*/
+body {
+  font: 13px helvetica,arial,freesans,clean,sans-serif;
+  line-height: 1.4em;
+  background-color: #fff;
+  color: #333333;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  /* align-content: space-around; */
+}
+
+li {
+  padding: 1em;
+}
+
+.pin {
+  display: flex;
+  justify-content: flex-start;
+  border: #333333;
+  border-width: 1em;
+  border-style: solid;
+  border-image: 1em;
+  width: 10em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image {
+  width: 10em;
+}
