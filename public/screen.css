@@ -38,16 +38,21 @@ li {
 .pin {
   display: flex;
   justify-content: flex-start;
+  flex-direction: row;
   border: #333333;
-  border-width: 1em;
+  border-width: .1em;
   border-style: solid;
   border-image: 1em;
-  width: 10em;
+  width: 25em;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin: 5em;
 }
 
+/* this is for sizing images */
 .image {
-  width: 10em;
+  width: 25em;
+  border-width: .1em;
+  border-style: solid;
 }
