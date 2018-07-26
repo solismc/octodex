@@ -35,6 +35,14 @@ li {
   padding: 1em;
 }
 
+.pins {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* added this line to try to separate the image*/
+  width: 5em
+}
+
 .pin {
   display: flex;
   justify-content: flex-start;
@@ -43,16 +51,28 @@ li {
   border-width: .1em;
   border-style: solid;
   border-image: 1em;
-  width: 25em;
+  width: 27em;
   display: flex;
   justify-content: center;
   flex-direction: column;
   margin: 5em;
 }
 
-/* this is for sizing images */
 .image {
-  width: 25em;
+  width: 27em;
   border-width: .1em;
   border-style: solid;
+}
+
+.pin-button {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.avatar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  
 }
